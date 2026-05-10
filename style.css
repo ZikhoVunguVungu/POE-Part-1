@@ -1,0 +1,41 @@
+body  {
+    background-color: #fff5f7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header  {
+    background-color: #f8C8DC;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a  {
+    margin:  15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+nav a:hover  {
+    color: #d63384;
+}
+
+h1, h2  {
+    color: #d63384;
+    text-align: center;
+}
+
+.GALLERY  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.GALLERY img  {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+section  {
+    margin: 40px
+}
