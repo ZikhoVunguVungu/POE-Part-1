@@ -110,3 +110,20 @@ section  {
 .map-section {
     text-align: center;
 }
+
+.why-us {
+    background-color: #ffe4ec;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cta {
+    text-align: center;
+    margin: 50px;
+}
+
+.gallery-item {
+    text-align: center;
+    width: 250px;
+}
