@@ -25,17 +25,88 @@ h1, h2  {
     text-align: center;
 }
 
-.GALLERY  {
+.gallery  {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.GALLERY img  {
+.gallery img  {
     width: 200px;
     margin: 10px;
     border-radius: 10px;
 }
 section  {
     margin: 40px
+}
+
+.about {
+    background-color: #ffe4ec;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background-color: #ffe4ec;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 220px;
+    margin: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+.contact-section {
+    background-color: #ffe4ec;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+.booking-form  input,
+.booking-form  select,
+.booking-form  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.map-section {
+    text-align: center;
 }
